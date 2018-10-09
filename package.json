@@ -6,6 +6,8 @@
   "license": "MIT",
   "dependencies": {
     "apollo-server": "2.1.0",
-    "neo4j-driver": "1.6.3"
+    "graphql": "^0.13.0",
+    "neo4j-driver": "1.6.3",
+    "neo4j-graphql-js": "1.0.2"
   }
 }
