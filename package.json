@@ -1,0 +1,7 @@
+{
+  "name": "agr_graphql_prototype",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Sibyl <sibyl@wormbase.org>",
+  "license": "MIT"
+}
