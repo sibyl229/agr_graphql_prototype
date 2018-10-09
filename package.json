@@ -3,5 +3,9 @@
   "version": "0.0.1",
   "main": "index.js",
   "author": "Sibyl <sibyl@wormbase.org>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "2.1.0",
+    "neo4j-driver": "1.6.3"
+  }
 }
