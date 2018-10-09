@@ -48,6 +48,12 @@ type InteractionGeneJoin {
 
 type Query {
   GeneByPrimaryKey(primaryKey: ID!): Gene
+  InteractionsByGene(genePrimaryKey: ID!): [InteractionGeneJoin] @cypher(
+    statement: """
+      MATCH (g:Gene {primaryKey: $genePrimaryKey})-[:ASSOCIATION]-(i:InteractionGeneJoin)
+      RETURN i
+    """
+  )
 }`;
 
 export const resolvers = {
