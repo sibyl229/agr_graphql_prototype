@@ -35,7 +35,7 @@ const server = new ApolloServer({
 });
 
 server
-  .listen(process.env.GRAPHQL_LISTEN_PORT || 3000, '0.0.0.0')
+  .listen(process.env.GRAPHQL_LISTEN_PORT || 4020, '0.0.0.0')
   .then(({ url }) => {
     console.log(`GraphQL API ready at ${url}`);
   });
